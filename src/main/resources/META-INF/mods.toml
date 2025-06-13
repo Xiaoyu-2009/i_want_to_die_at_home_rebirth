@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="i_want_to_die_at_home_rebirth"
+version="1.0.0"
+displayName="I Want To Die At Home：重生!"
+# logoFile="pack.png"
+authors="Krevik(原作者), Xiaoyu_2009(移植作者)"
+displayURL="https://space.bilibili.com/506597031"
+description='''
+让玩家在即将受到致命一击前被传送到最后一个出生点附近！
+'''
+
+[[dependencies.i_want_to_die_at_home_rebirth]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.i_want_to_die_at_home_rebirth]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH" 
