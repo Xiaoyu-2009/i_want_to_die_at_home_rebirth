@@ -4,8 +4,7 @@ import com.xiaoyu.iwanttodieathome.util.CooldownManager;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.network.chat.Component;
-import net.minecraftforge.event.entity.living.LivingDamageEvent;
-import net.minecraftforge.event.entity.living.LivingDeathEvent;
+import net.minecraftforge.event.entity.living.*;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -57,4 +56,5 @@ public class PlayerDeathHandler {
                 spawnPos.y,
                 spawnPos.z);
     }
+
 }
