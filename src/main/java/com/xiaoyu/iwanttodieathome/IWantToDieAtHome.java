@@ -16,12 +16,11 @@ public class IWantToDieAtHome {
 
     public IWantToDieAtHome() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
-        // 注册事件监听器
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     public static ResourceLocation makeResourceLocation(String path) {
         return new ResourceLocation(MOD_ID, path);
     }
+
 }
